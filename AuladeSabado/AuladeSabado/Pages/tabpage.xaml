@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AuladeSabado.tabpage"
+		xmlns:mypages="clr-namespace:AuladeSabado; assembly=AuladeSabado" Title="Tabbed">
+	
+	<TabbedPage.Children>
+
+		<mypages:cadastropage Title="Cadastro" />
+		<mypages:recuperarpage Title="Recuperar" />
+	</TabbedPage.Children>
+
+	
+</TabbedPage>

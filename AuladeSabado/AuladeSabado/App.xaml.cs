@@ -8,7 +8,7 @@ namespace AuladeSabado
 		{
 			InitializeComponent();
 
-			MainPage = new AuladeSabadoPage();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()
