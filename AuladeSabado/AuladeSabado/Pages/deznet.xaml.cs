@@ -7,11 +7,9 @@ using Xamarin.Forms;
 
 namespace AuladeSabado
 {
-	public partial class LoginPage : ContentPage
+	public partial class deznet : ContentPage
 	{
-		
-
-		public LoginPage()
+		public deznet()
 		{
 			InitializeComponent();
 		}
@@ -25,22 +23,17 @@ namespace AuladeSabado
 
 			Navigation.InsertPageBefore(new NavigationPage(new tabpage()), this);
 			await Navigation.PopAsync();
-
-
-			
 		}
 
-		async void cdclick(object sender, System.EventArgs e)
+		async void Recuperar_Clicked(object sender, System.EventArgs e)
 		{
 			UserDialogs.Instance.ShowLoading("Recuperar senha de " + txtlogin.Text);
 			await Task.Delay(3000);
 
 			UserDialogs.Instance.HideLoading();
 
-			Navigation.InsertPageBefore(new NavigationPage(new tabpage()), this);
+			Navigation.InsertPageBefore(new NavigationPage(new RecuperarSenha()), this);
 			await Navigation.PopAsync();
-
-
 
 		}
 	}

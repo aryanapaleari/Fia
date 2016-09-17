@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin;
 
 namespace AuladeSabado.iOS
 {
@@ -14,6 +15,8 @@ namespace AuladeSabado.iOS
 		{
 			global::Xamarin.Forms.Forms.Init();
 
+			FormsMaps.Init();
+			
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);

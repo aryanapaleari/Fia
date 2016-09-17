@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AuladeSabado.Endereco">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="Blue">
+			<Entry x:Name="txtCEP" Unfocused="Unfocused_Focused" WidthRequest="200" HeightRequest="50"  PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center" ></Entry>
+			<Entry x:Name="txtLogradouro" IsEnabled="true" WidthRequest="200" HeightRequest="50" PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center"></Entry>
+			<Entry x:Name="txtBairro" IsEnabled="true" WidthRequest="200" HeightRequest="50"  PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center"></Entry>
+			<Entry x:Name="txtCidade" IsEnabled="true" WidthRequest="200" HeightRequest="50" PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center"></Entry>
+			<Entry x:Name="txtEstado" IsEnabled="true" WidthRequest="200" HeightRequest="50" PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center"></Entry>
+			<Entry x:Name="txtNumero" WidthRequest="200" HeightRequest="50"  PlaceholderColor="Navy" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center"></Entry>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AuladeSabado.LoginPage" Title="Login teste" BackgroundColor="Green">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AuladeSabado.LoginPage" Title="Login" BackgroundColor="Green">
 	<ContentPage.Content>
 	<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15"> 
 	<Entry x:Name="txtlogin" WidthRequest="300" HeightRequest="40" Placeholder="Usuario" PlaceholderColor="Fuchsia" TextColor="Red" BackgroundColor="Aqua" />
 	<Entry x:Name="txtsenha" WidthRequest="300" HeightRequest="40" Placeholder="Senha" PlaceholderColor="Fuchsia" TextColor="Red" BackgroundColor="Aqua" IsPassword="true"/>
 
 	<Button x:Name="btnlogin" Clicked="Handle_Clicked" WidthRequest="100" HeightRequest="50" Text="Login" BackgroundColor="Maroon" TextColor="Yellow"/>
-	<Button x:Name="btncadastrar" Clicked="cdclick" WidthRequest="100" HeightRequest="50" Text="Cadastrar" BackgroundColor="Yellow" TextColor="Red"/>
+	<Button x:Name="btnRecuperarSenha" Clicked="cdclick" WidthRequest="100" HeightRequest="50" Text="Recuperar Senha" BackgroundColor="Yellow" TextColor="Red"/>
 
 
 	</StackLayout>
